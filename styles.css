@@ -46,7 +46,7 @@ th, td, tr {
     text-align: center;
 }
 
-.NotesList { /* Squeezes the CSS Notes to fit between the two tables */
+.NotesList { /* Squeezes the Notes Buttons to fit between the two tables */
     margin-right: 40%;
     margin-left: 40%;
     margin-top: 0px;
@@ -97,7 +97,7 @@ code {
     color: white;
     text-align: center;
     padding: 5px 0;
-    border-radius: 50%;
+    border-radius: 0%;
     position: absolute;
     z-index: 1;
 }

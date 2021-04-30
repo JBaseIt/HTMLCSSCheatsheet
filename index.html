@@ -35,13 +35,17 @@
                         <tr>
                             <td>Document wrapper</td>
                             <td><code>&lt;html&gt;</code><em>page elements and content</em><code>&lt;/html&gt;</code></td>
-                            <td>Lets the <div class="tooltip">browser</div> <div class="tooltiptext">(user agent)</div> know what language the page is written in so it can be correctly rendered.</td>
+                            <td><div class="tooltip">No Page-Related Output</div><aside class="tooltiptext">Lets the browser know what language the page is written in so it can be correctly rendered.</aside></td>
                         </tr>
                         <tr>
                             <td>Reference/link container</td>
-                            <td><code>&lt;head&gt;</code><i>link, title, SEO</i> tags and metadata go here<code>&lt;head&gt;</code>
-                            3</td>
-                            <td>Provides metadata for the page rendering, most content will be hidden from the user.</td>
+                            <td><code>&lt;head&gt;</code><i>link, title, SEO</i> tags and metadata go here.<code>&lt;head&gt;</code></td>
+                            <td><div class="tooltip">No Output</div><aside class="tooltiptext">Provides metadata for the page rendering, most content will be hidden from the user.</aside></td>
+                        </tr>
+                        <tr>
+                            <td>Main Page wrapper</td>
+                            <td><code>&lt;body&gt;</code>Container, text, and media tags go here.<code>&lt;/body&gt;</code></td>
+                            <td><i>Container, text, and media tags go here.</i></td>
                         </tr>
                         <tr>
                             <td>To add a paragraph</td>
@@ -72,33 +76,73 @@
             </section>
             <section class="NotesList">
                 <ul class="dropdown">
-                <button class="dropbtn">Notes on CSS</button>
-                  <div class="dropdown-content">
-                    <li>When CSS is written inline, it only effects a single HTML element. The syntax uses the <em>style</em> attribute, with the CSS code following standard conventions.</li>
-                    <li>CSS can also be written internally, in the <code>&lt;head&gt;</code> section of an HTML document. It is enclosed by a <code>&lt;style&gt;</code> element tag, with everything within following standard CSS formatting.</li>
-                    <li>CSS has style requirements of a line to start with a tag, class, id, or a combination of such separated by a comma, or placed together to adjust the specificity of the formatting.</li>
-                    <li>Four mock syntaxes include: <br> 
-                        <ol>
-                            <li> 
-                                <code class="hovering">p {<br>color: blue<br>}</code>
-                                <aside class="hide">This will make the paragraph text blue.</aside>
-                            </li>
-                            <li>
-                                <code class="hovering">.(class) {<br>text-size: 40px<br>}</code>
-                                <aside class="hide">This would make whichever elements share the same (class) to be a size of 40 pixels.</aside>
-                            </li>
-                            <li>
-                                <code class="hovering">#(id) {<br>font-family: 'Times New Roman'<br>}</code>
-                                <aside class="hide">For the single (or first) element that has this (id), it will change the typeset to Times New Roman.</aside>
-                            </li>
-                            <li>
-                                <code class="hovering">p.some {<br>background-color: pink<br>}</code>
-                                <aside class="hide">For all paragraph elements which have the class of <i>some</i>, the background color will be made pink.</aside>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>There are many other ways CSS can be used in tandem with their selective identifiers to make page use more unique. These are just some beginning examples.</li>
-                  </div>
+                    <button class="dropbtn">Notes on HTML</button>
+                      <div class="dropdown-content">
+                        <li>Placeholder 1</li>
+                        <li>Placeholder 2</li>
+                        <li>Placeholder 3</li>
+                        <li>Placeholder 4 <br> 
+                            <ol>
+                                <li> 
+                                    <code class="hovering">Sample Code 1</code>
+                                    <aside class="hide">Sample Code Aside</aside>
+                                </li>
+                                <li>
+                                    <code class="hovering">Sample Code 2</code>
+                                    <aside class="hide">Sample Code Aside</aside>
+                                </li>
+                                <li>
+                                    <code class="hovering">Sample Code 3</code>
+                                    <aside class="hide">Sample Code Aside</aside>
+                                </li>
+                                <li>
+                                    <code class="hovering">Sample Code 4</code>
+                                    <aside class="hide">Sample Code Aside</aside>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>Outro Placeholder</li>
+                      </div>
+                    </ul>
+                <ul class="dropdown">
+                    <button class="dropbtn">
+                        Notes on CSS
+                    </button>
+                    <div class="dropdown-content">
+                        <li>
+                            When CSS is written inline, it only effects a single HTML element. The syntax uses the <em>style</em> attribute, with the CSS code following standard conventions.
+                        </li>
+                        <li>
+                            CSS can also be written internally, in the <code>&lt;head&gt;</code> section of an HTML document. It is enclosed by a <code>&lt;style&gt;</code> element tag, with everything within following standard CSS formatting.
+                        </li>
+                        <li>
+                            CSS has style requirements of a line to start with a tag, class, id, or a combination of such separated by a comma, or placed together to adjust the specificity of the formatting.
+                        </li>
+                        <li>
+                            Four mock syntaxes include: <br> 
+                            <ol>
+                                <li> 
+                                    <code class="hovering">p {<br>color: blue<br>}</code>
+                                    <aside class="hide">This will make the paragraph text blue.</aside>
+                                </li>
+                                <li>
+                                    <code class="hovering">.(class) {<br>text-size: 40px<br>}</code>
+                                    <aside class="hide">This would make whichever elements share the same (class) to be a size of 40 pixels.</aside>
+                                </li>
+                                <li>
+                                    <code class="hovering">#(id) {<br>font-family: 'Times New Roman'<br>}</code>
+                                    <aside class="hide">For the single (or first) element that has this (id), it will change the typeset to Times New Roman.</aside>
+                                </li>
+                                <li>
+                                    <code class="hovering">p.some {<br>background-color: pink<br>}</code>
+                                    <aside class="hide">For all paragraph elements which have the class of <i>some</i>, the background color will be made pink.</aside>
+                                </li>
+                            </ol>
+                        </li>
+                        <li>
+                            There are many other ways CSS can be used in tandem with their selective identifiers to make page use more unique. These are just some beginning examples.
+                        </li>
+                    </div>
                 </ul>
             </section>
         </article>
