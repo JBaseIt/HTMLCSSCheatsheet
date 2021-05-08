@@ -81,6 +81,7 @@ ol  li { /* This styles the code examples, adjusting only the list elements whic
 
 code {
     background-color: #BBB6DB;
+    border-radius: 10px;
 }
 
 /* The following code is for hover-over text */
