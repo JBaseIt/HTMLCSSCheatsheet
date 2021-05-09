@@ -75,6 +75,40 @@ ul li { /* This styles ul li elements only */
     list-style-position: inside;
 }
 
+nav {
+    text-align: center;
+}
+
+ul#nav {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #2D2269;
+}
+
+ul#nav li {
+    display: inline-block;
+    position:relative;
+    list-style-type: none;
+    border: hidden;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: #261E54;
+    padding: 12px 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul#nav a {
+    color: black;
+    font-size: 18px;
+    font-weight: 1000;
+    text-shadow: 1px 1px #2d2269;
+}
+
+ul#nav a:hover {
+    color: #BBB6DB;
+}
+
 ol  li { /* This styles the code examples, adjusting only the list elements which follow <ol> tags */
     list-style-type: upper-roman;
 }
@@ -130,12 +164,12 @@ code {
     border-radius: 10px;
   }
   
-  .dropdown {
+.dropdown {
     position: relative;
     display: grid;
-  }
+}  
   
-  .dropdown-content {
+.dropdown-content {  
     display: none;
     position: absolute;
     background-color: #473C84;
@@ -144,25 +178,25 @@ code {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 10px;
-  }
+}
   
-  .dropdown-content a {
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
+}
   
-  .dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #ddd;}
   
-  .dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block;}
   
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 
-  /* example CSS for CSS table */
+/* example CSS for CSS table */
 
-  .ex1 {
-      color: white; 
-      background-color: black;
-    }
+.ex1 {
+    color: white; 
+    background-color: black;
+}
