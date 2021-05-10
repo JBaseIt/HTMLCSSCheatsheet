@@ -5,12 +5,12 @@
 }
 
 body {
-    background-color: #675DA0;
+    background-color: #ABA7BB;
 }
 
 header {
     text-align: center;
-    background-color: #2D2269
+    background-color: #4A416C;
 }
 
 h1 {
@@ -114,7 +114,7 @@ ol  li { /* This styles the code examples, adjusting only the list elements whic
 }
 
 code {
-    background-color: #BBB6DB;
+    background-color: #827C9A;
     border-radius: 10px;
 }
 
