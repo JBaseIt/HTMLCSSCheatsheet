@@ -86,7 +86,7 @@ ul#nav {
 
 ul#nav li {
     display: inline-block;
-    position:relative;
+    position: relative;
     list-style-type: none;
     border: hidden;
     border-radius: 10px;
@@ -94,7 +94,7 @@ ul#nav li {
     background-color: #261E54;
     padding: 12px 20px;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto 6px;
 }
 
 ul#nav a {
@@ -106,6 +106,10 @@ ul#nav a {
 
 ul#nav a:hover {
     color: #BBB6DB;
+}
+
+ul#nav li:hover {
+    background-color: #4A416C;
 }
 
 ol  li { /* This styles the code examples, adjusting only the list elements which follow <ol> tags */
